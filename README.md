@@ -1,18 +1,19 @@
 # Loan Data Aggregation and Prediction System
 
 ## Project Overview
-This project scrapes loan-related data from multiple websites, processes the data, and trains a machine learning model to predict loan approvals.
+This project involves scraping loan-related data from various websites, processing that data, and building machine learning models to predict loan approvals based on user information.
 
-### Features:
-- Web scraping with pagination and login handling.
-- Machine learning model with hyperparameter tuning.
-- Robust error handling and logging.
+## Features
+- **Web Scraping**: Scrapes loan information such as interest rates, loan terms, and lender names.
+- **Login Handling**: Supports login-based scraping.
+- **JavaScript Handling**: Scrapes pages with JavaScript-rendered content.
+- **Machine Learning**: Trains and evaluates a model to predict loan approvals.
+- **Error Handling**: Robust logging and error handling.
 
-### Requirements
+## Requirements
 - Python 3.x
-- Install dependencies: `pip install -r requirements.txt`
-
-### How to Run:
-1. Scrape loan data:
-   ```bash
-   python scraper/scrape.py
+- Selenium for handling JavaScript pages
+- Scikit-learn for machine learning models
+- Install dependencies using:
+  ```bash
+  pip install -r requirements.txt
